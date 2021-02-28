@@ -1,13 +1,12 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
+## Project Memebers
+- Aaron Krishna
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+The workspace contains Three folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- 'BusinessLogicLayer' : This folder contains everything about the business logic layer
+- 'DataAccessLayer' : This folder contains everything about the Data Access layer
+- 'PresentationLayer' : This folder contains everything about the Presentation layer
 
 ## Dependency Management
 
