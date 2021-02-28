@@ -1,15 +1,15 @@
 import Project.DataAccessLayer.*;
 public class EventFactory {
     // use getEvent method to get object of type Plan
-    public Ievent getEvent(Ievent event){
-        if (event.type == null) {
+    public Ievent setEvent(String eventType) {
+        if (eventType == null) {
             return null;
         }
-        if (event.type.equalsIgnoreCase("WEDDING")) {
+        if (eventType.equalsIgnoreCase("WEDDING")) {
             return new Wedding();
-        } else if (event.type.equalsIgnoreCase("BIRTHDAY")) {
+        } else if (eventType.equalsIgnoreCase("BIRTHDAY")) {
             return new Birthday();
-        } else if (event.type.equalsIgnoreCase("ANNIVERSARY")) {
+        } else if (eventType.equalsIgnoreCase("ANNIVERSARY")) {
             return new Anniversary();
         }
         return null;
