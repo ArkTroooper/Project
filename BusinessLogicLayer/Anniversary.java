@@ -1,3 +1,3 @@
-public class Anniversary {
+public class Anniversary extends BaseEvent{
     
 }
