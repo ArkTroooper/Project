@@ -1,6 +1,7 @@
+import Project.DataAccessLayer.*;
 public class EventFactory {
-    // use getPlan method to get object of type Plan
-    public Ievent getPlan(String eventType) {
+    // use getEvent method to get object of type Plan
+    public Ievent setEvent(String eventType) {
         if (eventType == null) {
             return null;
         }
@@ -12,5 +13,8 @@ public class EventFactory {
             return new Anniversary();
         }
         return null;
+    }
+    public void setEvent(Ievent eventObject){
+
     }
 }
